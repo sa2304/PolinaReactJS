@@ -26,3 +26,25 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+#sidebar {
+	position:fixed;
+	left: 0;
+	/*width: 400px;*/
+	list-style-type: none;
+}
+
+#sidebar li:odd {
+	background: gray;
+}
+
+#search-bar {
+	position: absolute;
+	top: 18px;
+	right: 10px;
+}
+
+.title h1 {
+	display: inline;
+	text-align: left;
+}
